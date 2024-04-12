@@ -7,41 +7,55 @@
     <link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body>
+  
     <div class="login-box">
         <h2>Request Form</h2>
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="bd8af5d5-7689-4745-b118-0277cbb2128a">
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="name:" required="">
             <label>Full name</label>
           </div>
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="Phone No." required="">
             <label>Phone No.</label>
           </div>
           <div class="user-box">
-            <input type="email" name="" required="">
+            <input type="email" name="Email:" required="">
             <label>Email</label>
           </div>
           <div class="user-box">
-            <input type="text" name="" required="">
+            <input type="text" name="Location:" required="">
             <label>Location</label>
           </div>
           <div class="user-box">
            <textarea name="message" id="" cols="40" rows="10" placeholder="as a question"></textarea>
-           
           </div>
-          <a href="#">
+         <!--
+
+         --> <button type="submit">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Submit
-          </a>
-          <a class="btn btn-danger" href="index.html" style="background-color: rgb(184, 15, 15); color: white;">
+          </button>
+          <a  href="index.html" style="background-color: rgb(91, 11, 48); color: white;   padding: 10px 20px;
+  color: #c6f0f3;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  ">
            
             Cancel
           </a>
         </form>
       </div>
+
+      <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>

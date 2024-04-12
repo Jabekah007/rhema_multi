@@ -1,0 +1,45 @@
+.request_float {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    
+  }
+
+  .request_float > div {
+    background-color:green;
+    width:230px;
+    height:50px;
+    margin-left:-100px;
+    border-radius: 15px 0 0 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* for mobile */
+  @media screen and (max-width: 1000px){
+   
+    .request_float {
+      width: 50px;
+      height: 50px;
+      bottom: 300px;
+      right: 30px;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .request_float > div {
+     width: 150px;
+     font-size: 15px;
+     height: 25px;
+     margin-left: -50px;
+
+
+    }
+  }
+  

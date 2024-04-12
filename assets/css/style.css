@@ -10,18 +10,20 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   color: #444444;
 }
 
 a {
   color: #ff7f5d;
   text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 a:hover {
   color: #ffa790;
   text-decoration: none;
+
 }
 
 h1,
@@ -29,8 +31,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Raleway", sans-serif;
+h6,
+p {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /*--------------------------------------------------------------
@@ -111,12 +114,12 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   position: relative;
-  height: 70px;
+  height: 90px;
 }
 
 @media (max-width: 992px) {
   #header {
-    height: 60px;
+    height: 90px;
   }
 }
 
@@ -162,6 +165,7 @@ h6 {
 --------------------------------------------------------------*/
 .header-social-links {
   padding-left: 20px;
+  margin-left: 50px;
 }
 
 .header-social-links a {
